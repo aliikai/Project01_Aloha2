@@ -56,7 +56,7 @@
             <h2 class="italic playfair_font section_title">Hand-Crafted <span class="bold fontstyle_clear">Styles</span></h2>
             <p class="intro_paragraph">Aloha Apparel Co. sells only the finest ready-to-travel clothing.  Browse our<br> current selection of products or sign-in for updates below.</p>
             <div class="img_collage">
-                <div class="women_category"><img src="images/womens-category.jpg" alt="mens" class="women_img">
+                <div class="women_category"><img src="images/womens-category.jpg" alt="womens" class="women_img">
                 </div>
                 <div class="trend_category"><img src="images/trends-category.jpg" alt="trends" class="trend_img">
                 </div>
@@ -70,39 +70,38 @@
                 </div>
             </div>
 <!--Products Section-->
-        <section class="products_section container">
-            <h2 class="italic playfair_font section_title">Most-Loved <span class="bold fontstyle_clear">Products</span></h2>
-                <div class="products carousel" data-flickity >
-                    <div class="product_div carousel-cell" data-sale="true" data-price="69" data-discount="10">
-                        <img src="images/blue-hipster-backpack.jpg" alt="#">
-                        <h4 class="  product_category raleway_font grey_font">Bags</h4>
-                        <h5 class="product_name playfair_font">Blue Hipster Backpack</h5>
-                        <h4 class="raleway_font grey_font">$69.00</h4>
-                    
-                    </div> 
-                    <div class="product_div carousel-cell" data-sale="false" data-price="129" data-discount="10">
-                        <img src="images/checked-stretch-dress.jpg" alt="#">
-                        <h4 class="product_category raleway_font grey_font">Dresses</h4>
-                        <h5 class="product_name playfair_font">Checked Stretch Dress</h5></a>
-                        <h4 class="raleway_font grey_font">$129.00</h4>
-                    </div>
-                 
-                    <div class="product_div carousel-cell" data-sale="true" data-price="89" data-discount="10">
-                        <img src="images/cotton-blue-shirt.jpg" alt="#"/>
-                        <h4 class="product_category raleway_font grey_font">Shirts</h4>
-                        <h5 class="product_name playfair_font">Cotton Blue Shirt</h5>
-                        <h4 class="raleway_font grey_font">$89.00</h4>
-                    
-                    </div> 
-                    <div class="product_div carousel-cell" data-sale="false" data-price="169" data-discount="10">
-                        <img src="images/stretch-knit-dress.jpg" alt="#"/>
-                        <h4 class="product_category raleway_font grey_font">Dresses</h4>
-                        <h5 class="product_name playfair_font">Stretch Knit Dress</h5>
-                        <h4 class="raleway_font grey_font">$169.00</h4>
-                    </div>
-                </div>
-                
-        </section>
+         <h2 class="italic playfair_font section_title">
+                                Most-Loved <span class="bold fontstyle_clear">Products</span>
+                        </h2>
+                        <div class="main-gallery" data-flickity>
+                                <div class="carousel-cell-1" style="width:50%; text-align:center;">
+                                        <img src="images/blue-hipster-backpack.jpg" alt="#" />
+                                        <h4 class="  product_category railway_font grey_font">Bags</h4>
+                                        <h5 class="product_name playfair_font">Blue Hipster Backpack</h5>
+                                        <h4 class="railway_font grey_font">$69.00</h4>
+                                </div>
+                               
+                                <div class="carousel-cell" style="width:50%; text-align:center;">
+                                        <img src="images/checked-stretch-dress.jpg" alt="#" />
+                                        <h4 class="product_category railway_font grey_font">Dresses</h4>
+                                        <h5 class="product_name playfair_font">Checked Stretch Dress</h5>
+                                        <h4 class="railway_font grey_font">$129.00</h4>
+                                </div>
+                        
+                                <div class="carousel-cell" style="width:50%; text-align:center;">
+                                        <img src="images/cotton-blue-shirt.jpg" alt="#" />
+                                        <h4 class="product_category railway_font grey_font">Shirts</h4>
+                                        <h5 class="product_name playfair_font">Cotton Blue Shirt</h5>
+                                        <h4 class="railway_font grey_font">$89.00</h4>
+                               
+                                </div>
+                                <div class="carousel-cell" style="width:50%; text-align:center;">
+                                        <img src="images/stretch-knit-dress.jpg" alt="#" />
+                                        <h4 class="product_category railway_font grey_font">Dresses</h4>
+                                        <h5 class="product_name playfair_font">Stretch Knit Dress</h5>
+                                        <h4 class="railway_font grey_font">$169.00</h4>
+                                </div>
+                        </div>
 <!--Subscribe Section-->
         <section class="container">
             <div class="subscribe_img">
@@ -110,12 +109,12 @@
                 <p class="update_info white_font raleway_font">Stay updated on our latest product releases, be first to find out about<br> upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p><br>
                 <div class="form">
                     <form id="form1">
-                        <div class="form_info">
+                        <div class="form01">
                             <div class="email">
                                 <input type="text" placeholder="&nbsp;&nbsp;Your Email" class=" text_input radius raleway_font float_left">
                             </div>
                             <div class="button">
-                                <button type="button" value="submit" class="submit_btn float_right white_font raleway_font float_right">Subscribe</button>
+                                <button type="button" value="submit" onclick="validateForm()"class="submit_btn float_right white_font raleway_font float_right">Subscribe</button>
                             </div>
                         </div>
                     </form>
