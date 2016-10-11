@@ -172,16 +172,18 @@ html, body {
 
 }
 .women_category img{
-	max-width: 100%;
+	max-width: 100%;	
+}
 
+.women_category{
 	flex-grow: 2;
-	max-width: 100%;
-	height: 50%;	
+	height: 50%;
 }
 
 .trend_category img{
 	max-width: 100%;
-
+}	
+.trend_category{
 	width: 25%;
 	border-style: solid;
 	border-color: white;
@@ -190,7 +192,8 @@ html, body {
 
 .glasses_category img{
 	max-width: 100%;
-
+}
+.glass_category{
 	width: 25%;
 	border-style: solid;
 	border-color: white;
@@ -199,7 +202,8 @@ html, body {
 
 .sales_category img{
 	max-width: 100%;
-
+}
+.sales_category{
 	width: 25%;
 	border-style: solid;
 	border-color: white;
@@ -208,7 +212,8 @@ html, body {
 
 .bags_category img{
 	max-width: 100%;
-
+}
+.bags_category{
 	width: 25%;
 	border-style: solid;
 	border-color: white;
@@ -217,7 +222,8 @@ html, body {
 
 .men_category img{
 	max-width: 100%;
-
+}
+.men_category{
 	flex-grow: 2;
 	max-width: 50%;
 	height: auto;
