@@ -394,15 +394,19 @@ a:hover{
 		text-align: center;
 	}
 	
-	.logo{
+	.aloha{
 		
-		width: 25%;
+		width: 75px;
 		padding: 10px;
 		margin: 10px 0 0 0;
 	}
 
+	.cart_icon{
+		width: 20%;
+	}
+
 	.new_collection1{
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	
 	.mobile_center{
@@ -411,6 +415,38 @@ a:hover{
 		align-content: center;
 		text-align: center;
 		padding-left: 0;
+	}
+
+	.women_category{
+		flex-grow: 2;
+		max-width: 100%;
+		height: auto;
+	}
+		
+	.trend_category{
+		width: 50%;	
+	}
+
+	.glasses_category{
+		width: 50%;	
+	}
+
+	.sales_category{
+		width: 50%;
+
+		
+	}
+
+	.bags_category{
+		width: 50%;
+
+		
+	}
+
+	.men_category{
+		flex-grow: 2;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.social_media{
@@ -454,7 +490,7 @@ a:hover{
 	}
 
 	.network_text{	
-		display:none;
+		display: none;
 	}
 	
 	li.social{
@@ -468,12 +504,40 @@ a:hover{
 /*Tablet*/
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
 
-	.logo{
-		width: 20%;
+	.aloha{
+		width: 100px;
+		margin-left: 30px;
+	}
+
+	.cart_icon{
+		width: 100px;
+		margin-right: 30px;
+	}
+
+	.nav_link{
+		display: flex;
+		align-self: flex-end;
 	}
 
 	.product_div{
 		width: 50% !important;
+	}
+
+	.subscribe_img{
+	background-position: top;
+	background-size: auto;
+	height: 300px;
+	
+	}
+
+	.form{
+		justify-content: flex-start;
+	}
+
+	.text_input{
+	width: 150px;
+	margin: 0;
+
 	}
 
 	.footer_padding{
