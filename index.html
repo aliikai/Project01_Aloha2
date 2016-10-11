@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="icon" href="images/favicon.jpg" type="image/jpg">
+        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>  
+
+
+
+        <link rel="stylesheet" type="text/css" href="">
+    
+     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <title>Aloha Apparel Co.</title>
+    </head>
+    <body>
+<!-- Header/Navigation-->       
+        <header class="container">
+            <div class="header_img">
+                <div class="aloha">
+                    <img class="aloha" src="images/aloha-logo.svg" alt="logo">
+                </div>
+                <div class="nav_link raleway_font ">
+                <a href="#">ABOUT</a>&nbsp&nbsp&nbsp&nbsp<a href="#">SHOP</a>&nbsp&nbsp&nbsp&nbsp<a href="#">FEATURED</a>&nbsp&nbsp&nbsp&nbsp<a href="#">UPDATES</a>
+                </div>
+                <div class="cart_icon"> 
+                    <div id="cart_number raleway_font">0
+                    </div>  
+                    <img src="images/cart-icon.svg" alt="cart-icon" class="cart_img">
+                </div>
+            </div>  
+        </header>
+       
+<!--Banner Section-->
+        <section class="container">
+            <div class="intro_img">
+                
+                <div class="intro_content">
+                    <h3 class="new_collection3 white_font raleway_font text_shadow">New Collection</h3>
+                    <h1 class="new_collection1 playfair_font white_font text_shadow">Spring/Summer 2016</h1>
+                </div>
+            </div>
+        </section>
+<!--Description Section-->
+        <section class="intro_desc container">
+            <h2 class="italic playfair_font section_title">Hand-Crafted <span class="bold fontstyle_clear">Styles</span></h2>
+            <p class="intro_paragraph">Aloha Apparel Co. sells only the finest ready-to-travel clothing.  Browse our<br> current selection of products or sign-in for updates below.</p>
+            <div class="img_collage">
+                <div class="women_category"><img src="images/womens-category.jpg" alt="mens" class="women_img">
+                </div>
+                <div class="trend_category"><img src="images/trends-category.jpg" alt="trends" class="trend_img">
+                </div>
+                <div class="glasses_category"><img src="images/glasses-category.jpg" alt="glasses" class="glasses_img">
+                </div>
+                <div class="sales_category"><img src="images/sale-category.jpg" alt="sales" class="sales_img">
+                </div>
+                <div class="bags_category"><img src="images/bags-category.jpg" alt="bags" class="bags_img">
+                </div>
+                <div class="men_category"><img src="images/mens-category.jpg" alt="mens" class="men_img">
+                </div>
+            </div>
+<!--Products Section-->
+        <section class="products_section container">
+            <h2 class="italic playfair_font section_title">Most-Loved <span class="bold fontstyle_clear">Products</span></h2>
+                <div class="products carousel" data-flickity >
+                    <div class="product_div carousel-cell" data-sale="true" data-price="69" data-discount="10">
+                        <img src="images/blue-hipster-backpack.jpg" alt="#">
+                        <h4 class="  product_category raleway_font grey_font">Bags</h4>
+                        <h5 class="product_name playfair_font">Blue Hipster Backpack</h5>
+                        <h4 class="raleway_font grey_font">$69.00</h4>
+                    
+                    </div> 
+                    <div class="product_div carousel-cell" data-sale="false" data-price="129" data-discount="10">
+                        <img src="images/checked-stretch-dress.jpg" alt="#">
+                        <h4 class="product_category raleway_font grey_font">Dresses</h4>
+                        <h5 class="product_name playfair_font">Checked Stretch Dress</h5></a>
+                        <h4 class="raleway_font grey_font">$129.00</h4>
+                    </div>
+                 
+                    <div class="product_div carousel-cell" data-sale="true" data-price="89" data-discount="10">
+                        <img src="images/cotton-blue-shirt.jpg" alt="#"/>
+                        <h4 class="product_category raleway_font grey_font">Shirts</h4>
+                        <h5 class="product_name playfair_font">Cotton Blue Shirt</h5>
+                        <h4 class="raleway_font grey_font">$89.00</h4>
+                    
+                    </div> 
+                    <div class="product_div carousel-cell" data-sale="false" data-price="169" data-discount="10">
+                        <img src="images/stretch-knit-dress.jpg" alt="#"/>
+                        <h4 class="product_category raleway_font grey_font">Dresses</h4>
+                        <h5 class="product_name playfair_font">Stretch Knit Dress</h5>
+                        <h4 class="raleway_font grey_font">$169.00</h4>
+                    </div>
+                </div>
+                
+        </section>
+<!--Subscribe Section-->
+        <section class="container">
+            <div class="subscribe_img">
+                <h2 class="italic playfair_font white_font text_shadow section_title">Sign-up for <span class="bold white_font text_shadow fontstyle_clear">Updates</span></h2>
+                <p class="update_info white_font raleway_font">Stay updated on our latest product releases, be first to find out about<br> upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p><br>
+                <div class="form">
+                    <form id="form1">
+                        <div class="form_info">
+                            <div class="email">
+                                <input type="text" placeholder="&nbsp;&nbsp;Your Email" class=" text_input radius raleway_font float_left">
+                            </div>
+                            <div class="button">
+                                <button type="button" value="submit" class="submit_btn float_right white_font raleway_font float_right">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+<!--Footer Section-->
+        <footer class="container footer_container">
+            <div class="footer_info">
+                <div class="footer_desc white_font"
+                    <p class="white_font float_left footer_padding mobile_center footer_text">&copy; 2016 Aloha Apparel Co. <br> Powered by HTML and CSS <br><br>
+                    <span class="no_bold">604-604-6040</span>
+                    <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a><br><br>
+                    <span class="grey_font no_bold">1490 W Broadway<br>Vancouver, BC, Canada
+                    </span></p>
+                </div>
+
+<!--Social Media-->
+            
+                <div class="social_media white_font raleway_font">
+                    <ul class="fa-ul">
+                       <li class="social"><a href="http://www.facebook.com" class="social_link"><p class="network_text network_icon">facebook</p><i class="fa-li fa fa-facebook"></i></a></li>
+                       <li class="social"><a href="http://www.twitter.com" class="social_link"><p class="network_text network_icon">Twitter</p><i class="fa-li fa fa-twitter"></i></a></li>
+                       <li class="social"><a href="http://www.instagram.com" class="social_link"><p class="network_text network_icon">Instagram</p><i class="fa-li fa fa-instagram"></i></a></li>
+                       <li class="social"><a class="social_link" href="http://www.pinterest.com"><p class="network_text network_icon">Pinterest</p><i class="fa-li fa fa-pinterest"></i></a></li>
+                       <li class="social"><a href="http://www.plus.google.com" class="social_link"><p class="network_text network_icon">Google+</p><i class="fa-li fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </footer>
+
+
+
+
+    </body>
+</html>
