@@ -10,9 +10,9 @@
         <link rel="icon" href="images/favicon.jpg" type="image/jpg">
         <link rel="stylesheet" type="text/css" href="">
         <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
-        <script type="text/javascript" src="scriptmin.js"></script>
-        <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>  
+        <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+        <script async type="text/javascript" src="scriptmin.js"></script>
+        <script async src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>  
 
 
 
@@ -149,17 +149,6 @@
 
 
 
-        <script type="text/javascript">
-        function downloadJSAtOnload() {
-        var element = document.createElement("script");
-        element.src = "scriptmin.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", downloadJSAtOnload, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", downloadJSAtOnload);
-        else window.onload = downloadJSAtOnload;
-        </script>
+     
     </body>
 </html>
